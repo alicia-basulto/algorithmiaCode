@@ -1,8 +1,5 @@
 import execution.problemModel;
-import problemsExecution.majorityElement169Execution;
-import problemsExecution.maxProfit121Execution;
-import problemsExecution.plusOne66Execution;
-import problemsExecution.rotate189Execution;
+import problemsExecution.*;
 
 
 import java.util.HashMap;
@@ -19,6 +16,7 @@ public class Menu {
             int numero = scanner.nextInt();
             // Crear un HashMap donde la clave es el número y el valor es la instancia de la clase correspondiente
             Map<Integer, problemModel> problems = new HashMap<>();
+            problems.put(55, new jumpGame55Execution());
             problems.put(66, new plusOne66Execution());
             problems.put(121, new maxProfit121Execution());
             problems.put(169, new majorityElement169Execution());

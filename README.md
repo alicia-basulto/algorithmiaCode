@@ -6,6 +6,26 @@ Small exercises to practise some algorithmia. The majority of the exercises are 
 
 Each program is solved in Python and Java. You have to insert the number of the problem and the result of one example is shown.
 
+### 55. Jump Game
+
+You are given an integer array `nums`. You are initially positioned at the array's **first index**, and each element in the array represents your maximum jump length at that position.
+
+Return `true` *if you can reach the last index, or* `false`* otherwise*.
+
+**Example 1:**
+
+<pre><strong>Input:</strong> nums = [2,3,1,1,4]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Jump 1 step from index 0 to 1, then 3 steps to the last index.
+</pre>
+
+**Example 2:**
+
+<pre><strong>Input:</strong> nums = [3,2,1,0,4]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.</pre>
+
+
 ### 66.PLUS ONE
 
 You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the `i<sup>th</sup>` digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.
@@ -22,7 +42,6 @@ Thus, the result should be [1,2,4].
 </pre>
 
 **Example 2:**
-
 
 <pre><strong>Input:</strong> digits = [4,3,2,1]
 <strong>Output:</strong> [4,3,2,2]
@@ -51,7 +70,6 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 <pre><strong>Input:</strong> prices = [7,6,4,3,1]
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> In this case, no transactions are done and the max profit = 0.</pre>
-
 
 ### 169. Majority Element
 
