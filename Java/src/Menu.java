@@ -1,6 +1,7 @@
 import execution.problemModel;
 import problemsExecution.majorityElement169Execution;
 import problemsExecution.plusOne66Execution;
+import problemsExecution.rotate189Execution;
 
 
 import java.util.HashMap;
@@ -19,6 +20,7 @@ public class Menu {
             Map<Integer, problemModel> problems = new HashMap<>();
             problems.put(66, new plusOne66Execution());
             problems.put(169, new majorityElement169Execution());
+            problems.put(189, new rotate189Execution());
 
             // Verificar que el número esté en el rango válido
             if (numero >= 1 && numero <= 200) {
