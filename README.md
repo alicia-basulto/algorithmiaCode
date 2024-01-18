@@ -28,3 +28,15 @@ Thus, the result should be [1,2,4].
 <strong>Explanation:</strong> The array represents the integer 4321.
 Incrementing by one gives 4321 + 1 = 4322.
 Thus, the result should be [4,3,2,2].</pre>
+
+
+### 169. Majority Element
+
+Given an array `nums` of size `n`, return *the majority element*.
+
+The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.
+
+**Example 1:**
+
+<pre><strong>Input:</strong> nums = [3,2,3]
+<strong>Output:</strong> 3</pre>
