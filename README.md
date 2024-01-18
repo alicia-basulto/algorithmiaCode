@@ -23,11 +23,35 @@ Thus, the result should be [1,2,4].
 
 **Example 2:**
 
+
 <pre><strong>Input:</strong> digits = [4,3,2,1]
 <strong>Output:</strong> [4,3,2,2]
 <strong>Explanation:</strong> The array represents the integer 4321.
 Incrementing by one gives 4321 + 1 = 4322.
 Thus, the result should be [4,3,2,2].</pre>
+
+### 121. Best Time to Buy and Sell Stock
+
+You are given an array `prices` where `prices[i]` is the price of a given stock on the `i<sup>th</sup>` day.
+
+You want to maximize your profit by choosing a **single day** to buy one stock and choosing a **different day in the future** to sell that stock.
+
+Return *the maximum profit you can achieve from this transaction*. If you cannot achieve any profit, return `0`.
+
+**Example 1:**
+
+<pre><strong>Input:</strong> prices = [7,1,5,3,6,4]
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+</pre>
+
+**Example 2:**
+
+<pre><strong>Input:</strong> prices = [7,6,4,3,1]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> In this case, no transactions are done and the max profit = 0.</pre>
+
 
 ### 169. Majority Element
 
